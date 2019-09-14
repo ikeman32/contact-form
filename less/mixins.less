@@ -11,3 +11,125 @@
     background-color: crimson;
     color: royalblue;
 }
+
+/*Animations
+Code by W3 Schools modified to let the developer set the duration
+*/
+.w3-spin (@time){//Set time in seconds example 5s
+    animation: w3-spin @time //infinite linear
+}
+
+@keyframes w3-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.w3-animate-fading (@time:5s){//Set time in seconds example 5s
+    animation: fading @time //infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.w3-animate-opacity (@time:5s){//Set time in seconds example 5s
+    animation: opac @time
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.w3-animate-top (@time:5s){//Set time in seconds example 5s
+    position: relative;
+    animation: animatetop @time
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-left (@time:5s){//Set time in seconds example 5s
+    position: relative;
+    animation: animateleft @time
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-right (@time:5s){//Set time in seconds example 5s
+    position: relative;
+    animation: animateright @time
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-bottom (@time:5s){//Set time in seconds example 5s
+    position: relative;
+    animation: animatebottom @time
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.w3-animate-zoom (@time:5s){//Set time in seconds example 5s
+    animation: animatezoom @time
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
