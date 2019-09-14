@@ -1,20 +1,85 @@
 .contact{
     width: 100%;
-    .box();//border
-    margin: 10% auto;
+    //.box();//border
+    background-color: #a29bfe;
+    margin: 2% auto;
+    
+
     .form{
         
         .contact-form{
-            padding: 2% 2%;
+            //.box();//border
 
-            .box();//border
             form{
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
                 flex-wrap: wrap;
-                .box();//border
-                padding: 2%;
+                //.box();//border
+                padding: 2% 0;
+                background-color: #00b894;
+                border-radius: 0 20%;
 
+                div{
+                    font-size: 1.6rem;
+                    
+                    #fn{
+                        padding: 1%;
+                        font-size: 1.6rem;
+                    }
+                    #ln{
+                        padding: 1%;
+                        font-size: 1.6rem;
+                    }
+                    #email{
+                        padding: 1%;
+                        font-size: 1.6rem;
+                    }
+                }
+
+                #msg-area{
+                    width: 100%;
+                    padding: 2%;
+
+                    #msg{
+                        width: 100%;
+                        resize: none;
+                        padding: 2%;
+                        font-size: 1.8rem;
+                    }//#msg
+                }//#msg-area
+
+                #btns{
+                    width: 30%;
+                    //.box();//border
+                    padding: 2%;
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: #a29bfe;
+                    border-radius: 10% 30%;
+
+
+                    #submit{
+                        padding: 3% 8%;
+                        border-radius: 8px;
+                        font-size: 1.6rem;
+                        .btn-color();
+
+                        &:hover{
+                            .btn-hover();
+                        }//hover
+                    }//#submit
+
+                    #reset{
+                        padding: 3% 10%;
+                        border-radius: 8px;
+                        font-size: 1.6rem;
+                        .btn-color();
+
+                        &:hover{
+                            .btn-hover()
+                        }//hover
+                    }//#reset
+                }//#btns
 
             }//form
         }//.contact-form

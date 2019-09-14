@@ -170,25 +170,102 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.contact header {
+  background-color: #34495e;
+  border-radius: 0 30%;
+}
 .contact header nav {
   padding: 2% 2%;
+  display: flex;
+  justify-content: center;
 }
 .contact header nav a {
   text-decoration: none;
+  font-size: 1.8rem;
+  color: aliceblue;
+}
+.contact header nav a:hover {
+  color: crimson;
+  background-color: aliceblue;
+  border-radius: 30% 0;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  background-color: #34495e;
+  border-radius: 30% 0;
+}
+footer p {
+  font-size: 1.8rem;
+  color: aliceblue;
 }
 .contact {
   width: 100%;
-  border: 1px solid black;
-  margin: 10% auto;
-}
-.contact .form .contact-form {
-  padding: 2% 2%;
-  border: 1px solid black;
+  background-color: #a29bfe;
+  margin: 2% auto;
 }
 .contact .form .contact-form form {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid black;
+  padding: 2% 0;
+  background-color: #00b894;
+  border-radius: 0 20%;
+}
+.contact .form .contact-form form div {
+  font-size: 1.6rem;
+}
+.contact .form .contact-form form div #fn {
+  padding: 1%;
+  font-size: 1.6rem;
+}
+.contact .form .contact-form form div #ln {
+  padding: 1%;
+  font-size: 1.6rem;
+}
+.contact .form .contact-form form div #email {
+  padding: 1%;
+  font-size: 1.6rem;
+}
+.contact .form .contact-form form #msg-area {
+  width: 100%;
   padding: 2%;
+}
+.contact .form .contact-form form #msg-area #msg {
+  width: 100%;
+  resize: none;
+  padding: 2%;
+  font-size: 1.8rem;
+}
+.contact .form .contact-form form #btns {
+  width: 30%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #a29bfe;
+  border-radius: 10% 30%;
+}
+.contact .form .contact-form form #btns #submit {
+  padding: 3% 8%;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  background-color: blue;
+  color: antiquewhite;
+}
+.contact .form .contact-form form #btns #submit:hover {
+  background-color: crimson;
+  color: royalblue;
+}
+.contact .form .contact-form form #btns #reset {
+  padding: 3% 10%;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  background-color: blue;
+  color: antiquewhite;
+}
+.contact .form .contact-form form #btns #reset:hover {
+  background-color: crimson;
+  color: royalblue;
 }
