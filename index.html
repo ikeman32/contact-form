@@ -5,11 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
     <title>Document</title>
 </head>
 
 <body>
+
+    <div class='container contact'>
+        <header>
+            <nav>
+                <a href="#">Home</a>
+            </nav>
+        </header>
+
+        <section class="form">
+            <div class='contact-form'>
+                <form action="/index.html" method="submit">
+                    <div>
+                        <select name="salutation" id="sal">
+                        <option value="mr">Mr</option>
+                        <option value="mrs">Mrs</option>
+                        <option value="ms">Ms</option>
+                    </select>
+                    </div>
+                    <div>
+                        First Name: <input id="fn" type="text" name="fname">
+                    </div>
+                    <div>
+                        Last Name: <input id="ln" type="text" name="lname">
+                    </div>
+                    <div>
+                        Email: <input type="email" name="email" id="email">
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+        <footer>
+
+        </footer>
+
+    </div>
 
 </body>
 

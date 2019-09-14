@@ -170,3 +170,25 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.contact header nav {
+  padding: 2% 2%;
+}
+.contact header nav a {
+  text-decoration: none;
+}
+.contact {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10% auto;
+}
+.contact .form .contact-form {
+  padding: 2% 2%;
+  border: 1px solid black;
+}
+.contact .form .contact-form form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 2%;
+}
