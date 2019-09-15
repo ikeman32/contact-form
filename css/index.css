@@ -330,7 +330,7 @@ footer p {
   border-radius: 10% 30%;
 }
 .contact .form .contact-form form #btns #submit {
-  padding: 3% 8%;
+  padding: 5px 10px;
   border-radius: 8px;
   font-size: 1.6rem;
   background-color: blue;
@@ -341,7 +341,7 @@ footer p {
   color: royalblue;
 }
 .contact .form .contact-form form #btns #reset {
-  padding: 3% 10%;
+  padding: 5px 15px;
   border-radius: 8px;
   font-size: 1.6rem;
   background-color: blue;
